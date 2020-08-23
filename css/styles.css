@@ -139,3 +139,29 @@ hr{
     padding: 3% 20%;
     background-color: rgb(213, 232, 238);
 }
+.contact-header{
+    padding: 2%;
+}
+.contact-me{
+    font-size: 20px;
+}
+.left{
+    padding: 3%;
+    text-align: right;
+}
+.right{
+    padding: 3%;
+    text-align:left;
+}
+.contact-links{
+    color: black;
+}
+
+.footer{
+    background-color:#232D4B;
+    padding: 1%;
+}
+.footer-text{
+    margin: 1%;
+    color: rgb(173, 172, 172);
+}
