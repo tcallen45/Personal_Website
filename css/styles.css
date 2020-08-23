@@ -1,0 +1,141 @@
+body{
+    margin: 0px; /* Applies for all 4 margins*/
+    text-align: center;
+    color: black;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    /* font-family: 'Lobster', cursive; */
+    font-size: 6.5rem; /*Dynamic font size 1em = 16px, em is also dynamic, is added from inherited parent */
+    /* rem ignores parent values*/
+    margin: auto;
+    /* margin-bottom: 50px; */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+h3{
+    color: #232D4B;
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+hr{
+    border-style: solid none none;
+    color: black;
+    width: 25vw;
+}
+
+/* Top Container */
+.intro-container{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background:linear-gradient( rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2) ),url("../images/IMG_0582.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30vh 0 42vh;
+    background-position: center 25%;
+}
+.intro-content{
+    margin: 0 auto;
+    color: white;
+}
+.intro-header{
+    margin-top: 0;
+}
+.subtitle-text{
+    margin: 20px;
+    font-size: 2.25rem;
+}
+
+/* Experience */
+.experience-container{
+    padding: 3% 20%;
+}
+.experience-title{
+    color: black;
+}
+.experience{
+    text-align: left;
+    padding: 2% 0;
+}
+.curved-img{
+    display: block;
+    width: 20rem;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+.sankey-img{
+    display: block;
+    width: 20rem;
+    height: auto;
+    margin-bottom: 5%;
+}
+.alluvial{
+    border-radius: 0;
+}
+.experience-subheader{
+    color: #E57200;
+    font-size: 2.25vh;
+}
+.experience-sub-subheader{
+    color: #E57200;
+    font-size: 2vh;
+}
+.experience-text{
+    padding: 0 7%;
+}
+
+/* Projects */
+.projects-container{
+    padding: 3% 20%;
+    background-color: rgb(213, 232, 238);
+}
+.project{
+    text-align: left;
+    padding: 2% 0;
+}
+.project-header{
+    color: #232D4B;
+}
+.project-subheader{
+    color: #E57200;
+    font-size: 2.25vh;
+}
+.project-sub-subheader{
+    color: #E57200;
+    font-size: 2vh;
+}
+.project-text{
+    padding: 0 7%;
+}
+
+
+/* About */
+.about-container{
+    padding: 3% 20%;
+}
+.about-container .img{
+    width:200px;
+}
+.personal-img{
+    height: 200px;
+    width: 200px;
+}
+.about-text{
+    padding: 3%;
+}
+
+/* Socials */
+.contact-socials{
+    padding: 3% 20%;
+    background-color: rgb(213, 232, 238);
+}
